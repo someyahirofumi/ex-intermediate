@@ -13,7 +13,7 @@
 <h2>発足</h2>
 <span th:text="${teamdetail.inauguration}">dummy</span><br>
 <h2>歴史</h2>
-<span th:text="${teamdetail.history}">dummy</span><br>
+<pre><span th:text="${teamdetail.history}">dummy</span></pre><br>
 
 <form th:action="@{/back_to_list}" method="post">
 <button>戻る</button>
