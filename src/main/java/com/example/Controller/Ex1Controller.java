@@ -36,5 +36,9 @@ public class Ex1Controller {
 		return "showdetail";
 		
 	}
-
+	
+	@RequestMapping("back_to_list")
+	public String backToList(Model model) {
+		return index(model);
+	}
 }

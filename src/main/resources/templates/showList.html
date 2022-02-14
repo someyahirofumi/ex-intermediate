@@ -9,7 +9,7 @@
 <h3>野球チーム一覧</h3>
 <div th:each="team:${team}">
 	
-<a th:href="@{/showdetail}" ><span th:text="${team.teamName}></span></a>
+<a th:href="@{/showdetail?teamName=}+${team.teamName}" ><span th:text="${team.teamName}" ></span></a>
 
 </div>
 

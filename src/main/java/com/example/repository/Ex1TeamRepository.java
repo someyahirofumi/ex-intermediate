@@ -28,7 +28,7 @@ public class Ex1TeamRepository {
 	}
 	
 	public List<Ex1Team> showAll(){
-		String sql ="SELECT team_name FROM teams ORDER BY inauguration desc;";
+		String sql ="SELECT team_name FROM teams ORDER BY inauguration;";
 	    List<Ex1Team> teamNameList = template.query(sql, EX1TEAM_ROW_MAPPER);
 	    return teamNameList;
 	}

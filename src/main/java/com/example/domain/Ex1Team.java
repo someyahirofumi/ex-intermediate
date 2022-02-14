@@ -6,7 +6,7 @@ public class Ex1Team {
 	private Integer id;
 	private String leagueName;
 	private String teamName;
-	private String headquaeters;
+	private String headquarters;
 	private String inauguration;
 	private String history;
 	public Integer getId() {
@@ -27,11 +27,11 @@ public class Ex1Team {
 	public void setTeamName(String teamName) {
 		this.teamName = teamName;
 	}
-	public String getHeadquaeters() {
-		return headquaeters;
+	public String getHeadquarters() {
+		return headquarters;
 	}
-	public void setHeadquaeters(String headquaeters) {
-		this.headquaeters = headquaeters;
+	public void setHeadquarters(String headquarters) {
+		this.headquarters = headquarters;
 	}
 	public String getInauguration() {
 		return inauguration;
@@ -48,7 +48,7 @@ public class Ex1Team {
 	@Override
 	public String toString() {
 		return "Ex1Team [id=" + id + ", leagueName=" + leagueName + ", teamName=" + teamName + ", headquaeters="
-				+ headquaeters + ", inauguration=" + inauguration + ", history=" + history + "]";
+				+ headquarters + ", inauguration=" + inauguration + ", history=" + history + "]";
 	}
 
 }
